@@ -9,15 +9,15 @@ margin: 20px;
 .name {
 border-width: 1px;
 border-style: solid;
-background-color: darkblue;
+background-color: #3b3c40;
 text-align: center;
 color: white;
 }
 ul {
   list-style-type: none;
-  margin: 1;
+  margin: 0;
   padding: 0;
-  background-color: #301671;
+  background-color: #efefef;
   display: flex;
   justify-content: center;
   position: sticky;
@@ -26,12 +26,65 @@ ul {
 
 ul li a {
   display: block;
-  color: white;
+  color: black;
   padding: 14px 16px;
   text-decoration: none;
 }
 ul li a:hover {
-  background-color: #ab75d3;
+  background-color: #aca39a;
+}
+.h {
+border: none;
+width: 100%;
+height: 2px;
+background-color: #3b3c40
+}
+.r {
+border: none;
+width: 100%;
+height: 4px;
+background-color: #3b3c40;
+}
+.breakingnews {
+text-align: center;
+color: #3e3232;
+font-family: Georgia;
+font-size: 45px;
+letter-spacing: 4px;
+word-spacing: 10px;
+}
+.banner {
+padding: 10px;
+width: 600px;
+height: 403px;
+float: right;
+}
+.news {
+font-family: Times New Roman;
+font-size: 20px;
+text-align: justify;
+}
+.news::first-letter {
+color: #3e3232;
+font-size: 40px;
+font-family: Georgia;
+}
+.rising {
+text-align: justify;
+color: #3e3232;
+font-family: Georgia;
+font-style: italic;
+}
+.tagline {
+text-align: center;
+font-family: Georgia;
+font-style: italic;
+font-size: 30px;
+}
+blockquote {
+text-align: center;
+font-family: Georgia;
+color: #3e3232;
 }
 </style>
 </head>
@@ -40,11 +93,26 @@ ul li a:hover {
 <h1>DAILY NEWS</h1>
 </div>
 <ul>
-  <li><a href="https://awkaye.github.io/digital_story_book/home.html">Home</a></li>
-  <li><a href="https://awkaye.github.io/digital_story_book/tale.html">The Tale</a></li>
-  <li><a href="https://awkaye.github.io/digital_story_book/behind_the_legend.html">Behind the Legend</a></li>
-  <li><a href="https://awkaye.github.io/digital_story_book/profile.html">My Profile</a></li>
+  <li><a href="">Home</a></li>
+  <li><a href="">Local News</a></li>
+  <li><a href="">Community Features</a></li>
+  <li><a href="">Editorial</a></li>
+  <li><a href="">Looking Ahead</a></li>
 </ul>
-
+<hr class="h">
+<hr class="r">
+<h1 class="breakingnews">BREAKING NEWS</h1>
+<hr class="r">
+<hr class="h">
+<div>
+<img src="https://pbs.twimg.com/card_img/2032915725917016064/43lS7SdF?format=jpg&name=orig" class="banner">
+<h1 class="rising">Rising Fish and Vegetable Prices in Manila Spark Calls for Ethical Trading </h1>
+<p class="news">Prices of fish and vegetables in several public markets in Manila have started to increase, raising concerns among consumers and government officials. The increase in prices comes as a possible fuel crisis becomes imminent due to rising tensions in the Middle East, which may affect transportation costs and the delivery of goods. According to reports, the price of lapu-lapu increased from P300 to P400 per kilo, while bakoko rose from P250 to P400 per kilogram at the Bulungan Seafood Market. At Balintawak Market, the price of a container of fish reportedly increased by P500. Some vegetable prices also went up, including eggplant, squash, and calamansi.
+<br><br>In response to these developments, Bong Go urged traders and suppliers to avoid hoarding and overpricing that could further burden consumers. He emphasized that although higher fuel prices may affect transportation and distribution, some traders might take advantage of the situation by raising prices too early or manipulating supply. Go called on those involved in the food supply chain to practice ethical and responsible trading to protect ordinary Filipinos.
+<br><br>The senator also reminded the public that many families are already struggling with daily expenses and are forced to buy smaller portions of food just to make their budget last. He stressed that food and other basic goods are essential for daily survival, making fair pricing very important during times of economic difficulty. Authorities continue to encourage cooperation among traders, suppliers, and consumers to ensure that essential goods remain affordable and accessible to the public.</p>
+</div>
+<hr class="h">
+<p class="tagline">"News that Matters to Our Community"</p>
+<blockquote>03/15/2026 | Edition 1 | Marikina City, Philippines</blockquote>
 </body>
 </html>
